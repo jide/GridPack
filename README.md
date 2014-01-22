@@ -161,3 +161,9 @@ Now, gridPack.grid will be :
         "y": 0
       }
     ]
+
+You can access packed / unpacked version using :
+
+    gridPack.packed();
+
+    gridPack.unpacked();
