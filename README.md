@@ -6,6 +6,7 @@ A grid packer / unpacker module.
 Usage
 -----
 
+    ```javascript
     var gridPack = new GridPack();
 
     gridPack.grid = [
@@ -22,6 +23,7 @@ Usage
     ];
 
     gridPack.pack();
+    ```
 
 Now, gridPack.grid will be :
 
