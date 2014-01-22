@@ -1,7 +1,7 @@
 GridPack
 ========
 
-A grid packer / unpacker module.
+A grid layout packer / unpacker module. Works both in browser and node.js.
 
 Usage
 -----
@@ -22,7 +22,11 @@ gridPack.grid = [
     {x:7,y:3,w:2,h:1,id:'k'},
 ];
 
+// To pack :
 gridPack.pack();
+
+// To unpack :
+gridPack.unpack();
 ```
 
 Now, gridPack.grid will be :
@@ -169,6 +173,6 @@ Now, gridPack.grid will be :
 You can access packed / unpacked version using :
 
 ```javascript
-gridPack.packed();
-gridPack.unpacked();
+gridPack.packed;
+gridPack.unpacked;
 ```
