@@ -1,0 +1,23 @@
+{
+  "name": "GridPack",
+  "version": "0.0.1",
+  "description": "A grid packer / unpacker module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jide/GridPack.git"
+  },
+  "keywords": [
+    "grid",
+    "pack",
+    "unpack"
+  ],
+  "author": "jide",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/jide/GridPack/issues"
+  }
+}
