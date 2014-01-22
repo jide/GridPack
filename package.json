@@ -2,7 +2,7 @@
   "name": "GridPack",
   "version": "0.0.1",
   "description": "A grid packer / unpacker module.",
-  "main": "index.js",
+  "main": "GridPack.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
